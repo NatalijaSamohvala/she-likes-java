@@ -39,6 +39,24 @@ public class Main {
         //double type for number with fraction part
         double trueEleven = 11.0;
 
+        //Exercise 7 - apples
+        int HoneyCrisp = 1;
+        double trueHoneyCrisp = 1.02;
+        int GrannySmith = 1;
+        double trueGrannySmith = 1.25;
+        int Gala = 1;
+        double trueGala = 1.30;
+        int RedDelicious = 1;
+        double trueRedDelicious = 1.45;
+
+        // sum - returns sum of numbers
+        System.out.println("SUM");
+        System.out.println(trueHoneyCrisp+trueGrannySmith+trueGala+trueRedDelicious);
+
+
+
+
+
 
 
 
