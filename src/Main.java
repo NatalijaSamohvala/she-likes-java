@@ -53,6 +53,11 @@ public class Main {
         System.out.println("SUM");
         System.out.println(trueHoneyCrisp+trueGrannySmith+trueGala+trueRedDelicious);
 
+        //difference - the result of one of the important mathematical operations, which is obtained by subtracting two numbers.
+        System.out.println("DIFFERENCE");
+        System.out.println(trueRedDelicious-trueGala);
+
+
 
 
 
