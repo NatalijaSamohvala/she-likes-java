@@ -61,6 +61,10 @@ public class Main {
         System.out.println("PRODUCT");
         System.out.println(trueGrannySmith*trueHoneyCrisp);
 
+        //quotient - a resultant number when one number is divided by the other number
+        System.out.println("QUOTIENT");
+        System.out.println(trueGala/trueHoneyCrisp);
+
 
 
 
