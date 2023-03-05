@@ -57,6 +57,11 @@ public class Main {
         System.out.println("DIFFERENCE");
         System.out.println(trueRedDelicious-trueGala);
 
+        //product - the result of two or more numbers when multiplied together
+        System.out.println("PRODUCT");
+        System.out.println(trueGrannySmith*trueHoneyCrisp);
+
+
 
 
 
