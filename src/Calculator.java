@@ -17,5 +17,11 @@ public class Calculator {
         System.out.println("You provided number: "+secondNumber);
         int sum = firstNumber+secondNumber;
         System.out.println("Sum is:" +sum);
+        int difference = firstNumber-secondNumber;
+        System.out.println("Difference is:" +difference);
+        int product = firstNumber*secondNumber;
+        System.out.println("Product is:" +product);
+        int quotient = firstNumber/secondNumber;
+        System.out.println("Quotient is:" +quotient);
     }
 }
