@@ -13,18 +13,18 @@ public class Calculator {
         //TODO: explain object creation
         Scanner inputReader = new Scanner(System.in);
         firstNumber = inputReader.nextInt();
-        System.out.println("You provided number: "+firstNumber);
+        System.out.println("You provided number: " + firstNumber);
         // \n means put new line
         System.out.println("\nProvide second number:");
         secondNumber = inputReader.nextInt();
-        System.out.println("You provided number: "+secondNumber);
-        int sum = firstNumber+secondNumber;
-        System.out.println("\nSum is:" +sum);
-        int difference = firstNumber-secondNumber;
-        System.out.println("Difference is:" +difference);
-        int product = firstNumber*secondNumber;
-        System.out.println("Product is:" +product);
-        int quotient = firstNumber/secondNumber;
-        System.out.println("Quotient is:" +quotient);
+        System.out.println("You provided number: " + secondNumber);
+        int sum = firstNumber + secondNumber;
+        System.out.println("\nSum is:" + sum);
+        int difference = firstNumber - secondNumber;
+        System.out.println("Difference is:" + difference);
+        int product = firstNumber * secondNumber;
+        System.out.println("Product is:" + product);
+        int quotient = firstNumber / secondNumber;
+        System.out.println("Quotient is:" + quotient);
     }
 }
