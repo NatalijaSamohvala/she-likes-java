@@ -10,15 +10,16 @@ public class Calculator {
         System.out.println("Provide first number:");
         int firstNumber;
         int secondNumber;
-        //TODO: explan object creation
+        //TODO: explain object creation
         Scanner inputReader = new Scanner(System.in);
         firstNumber = inputReader.nextInt();
         System.out.println("You provided number: "+firstNumber);
-        System.out.println("Provide second number:");
+        // \n means put new line
+        System.out.println("\nProvide second number:");
         secondNumber = inputReader.nextInt();
         System.out.println("You provided number: "+secondNumber);
         int sum = firstNumber+secondNumber;
-        System.out.println("Sum is:" +sum);
+        System.out.println("\nSum is:" +sum);
         int difference = firstNumber-secondNumber;
         System.out.println("Difference is:" +difference);
         int product = firstNumber*secondNumber;
