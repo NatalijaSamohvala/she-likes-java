@@ -10,12 +10,18 @@ public class GuessTheNumberGame {
         // System.out.println("random number provided by java is: " + someRandomNumber);
 
         Scanner inputReader = new Scanner(System.in);
-        int userAnswer;
+
         System.out.println("Play a game with me :)");
-        do {
+        System.out.println("Guess the number between 1 and 10");
+        int userAnswer = inputReader.nextInt();
+        while (userAnswer != someRandomNumber) {
             System.out.println("Guess the number between 1 and 10");
             userAnswer = inputReader.nextInt();
-        } while (userAnswer != someRandomNumber);
+        }
+       // do {
+         //   System.out.println("Guess the number between 1 and 10");
+           // userAnswer = inputReader.nextInt();
+        //} while (userAnswer != someRandomNumber);
 
         System.out.println("Great, You win!!!");
 
