@@ -41,11 +41,11 @@ public class Operators {
         secondValue = !firstValue;
         System.out.println("!false is: " + secondValue);
 
-        boolean polite = false;
-        if (!polite) {
+        // !isPolite = naughty
+        boolean isPolite = false;
+        if (!isPolite) {
             System.out.println("You're not polite, or just naughty");
         }
-
         boolean naughty = true;
         if (naughty) {
             System.out.println("You're not polite, or just naughty");
