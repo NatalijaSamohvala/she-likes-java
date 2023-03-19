@@ -1,6 +1,7 @@
 package com.sda.she_likes_java.homework;
 import java.util.Scanner;
-public class BouncersInDiscoStory {
+
+public class BouncersInDiscoStoryWithFunctions {
     public static void main(String[] args) {
         System.out.println("Here's a story about two bouncers at a disco");
 
@@ -22,7 +23,7 @@ public class BouncersInDiscoStory {
         System.out.println("How tall are You? ");
         height = inputReader.nextInt();
 
-        boolean canEnterTheParty = (age >= 18 && age < 30) && height > 180 && isAbleToSingWell == true;
+        boolean canEnterTheParty = checkByYoungBouncer(age, height, isAbleToSingWell);
 
         if (canEnterTheParty) {
             System.out.println("Welcome to party!!!");
@@ -41,7 +42,7 @@ public class BouncersInDiscoStory {
             System.out.println("How tall are You? ");
             height = inputReader.nextInt();
 
-            canEnterTheParty = age >= 18 || height > 180 || isAbleToSingWell == true;
+            canEnterTheParty = checkedByOldBouncer(age, height, isAbleToSingWell);
 
             if (canEnterTheParty) {
                 System.out.println("Ahhh - great. Let's party");
@@ -51,4 +52,13 @@ public class BouncersInDiscoStory {
         }
 
     }
-}
+    // first line is function prototype
+    public static boolean checkByYoungBouncer(int age, int height, boolean isAbleToSingWell) {
+        return age >= 18 && height > 180 && isAbleToSingWell == true;
+    }
+
+    public static boolean checkedByOldBouncer(int age, int height, boolean isAbleToSingWell) {
+        return age >= 18 || height > 180 || isAbleToSingWell == true;
+    }
+    }
+
