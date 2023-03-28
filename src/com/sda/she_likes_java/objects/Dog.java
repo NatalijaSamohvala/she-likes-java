@@ -14,7 +14,7 @@ public class Dog {
         Dog dog = new Dog();
         dog.name = "Azor";
 
-        System.out.println("My dog: " + dog);
+        System.out.println("My dog: " + dog.toString());
 
     }
 }
