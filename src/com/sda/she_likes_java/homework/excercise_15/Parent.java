@@ -1,5 +1,8 @@
 package com.sda.she_likes_java.homework.excercise_15;
 
+import com.sda.she_likes_java.classes.Person;
+import com.sda.she_likes_java.homework.Address;
+
 public class Parent {
     String name;
     String surname;
@@ -9,4 +12,11 @@ public class Parent {
     Person secondChild;
 
     Address address;
+
+    public static void main(String[] args) {
+        Address someAddress = new Address ();
+        someAddress.country = "Latvia";
+
+
+    }
 }

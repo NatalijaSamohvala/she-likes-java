@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.excercise_15;
+package com.sda.she_likes_java.classes;
 
 public class Person {
     String name;
@@ -14,7 +14,7 @@ public class Person {
    // }
    // public void mySecondChild(){
     //    Person mySecondChild = new Person ();
-        mySecondChild.name = "Mila";
+     //   mySecondChild.name = "Mila";
     //    mySecondChild.surname = "Milule";
       //  System.out.println(mySecondChild.name + " " + mySecondChild.surname);
     //}
@@ -24,6 +24,11 @@ public class Person {
         myFirstChild.name = "Laila";
         myFirstChild.surname = "Milule";
 
+        Person mySecondChild = new Person();
+        mySecondChild.name = "Mila";
+        mySecondChild.surname = "Milule";
+
         System.out.println(myFirstChild.name + " " + myFirstChild.surname);
+        System.out.println(mySecondChild.name + " " + mySecondChild.surname);
     }
 }
