@@ -24,4 +24,12 @@ public class House {
                 ", numberOfBathrooms=" + numberOfBathrooms +
                 '}';
     }
+
+    public int getNumberOfBathrooms() {
+        return numberOfBathrooms;
+    }
+
+    public void setNumberOfBathrooms(int numberOfBathrooms) {
+        this.numberOfBathrooms = numberOfBathrooms;
+    }
 }
