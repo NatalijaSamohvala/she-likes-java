@@ -13,6 +13,9 @@ public class WashMachineFactory {
         //DO NOT USE INSTANCE REFERENCES TO ACCESS STATIC MEMBERS (FIELDS/METHODS)
 
         samsung.setNumberOfCreatedMachines(1000);
+        samsung.increaseSerialNumber();
+        samsung.increaseSerialNumber();
+        System.out.println("Serial number now is: " + samsung.getSerialNumber());
 
         WashMachine samsung2 = new WashMachine("Samsung", "1x2");
         System.out.println("Current population number is: " + WashMachine.getNumberOfCreatedMachines());

@@ -23,6 +23,7 @@ public class WashMachine {
     public int getSerialNumber() {
         return serialNumber;
     }
+    //class method
     public static int getNumberOfCreatedMachines() {
         return numberOfCreatedMachines;
     }
@@ -32,6 +33,11 @@ public class WashMachine {
     public String getModel() {
         return model;
     }
+
+    //instance method
+    public void increaseSerialNumber(){
+        serialNumber++;
+   }
     @Override
     public String toString() {
         return "WashMachine{" +
