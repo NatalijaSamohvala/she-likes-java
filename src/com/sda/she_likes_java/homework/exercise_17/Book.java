@@ -14,14 +14,16 @@ public class Book {
     public static int getNumberOfCreatedBooks() {
         return numberOfCreatedBooks;
     }
+
     @Override
     public String toString() {
-        return “Book{” +
-                “title=‘” + title + ‘\’' +
-                “, author=‘” + author + ‘\’' +
-                “, yearOfPublication=” + yearOfPublication +
-                ‘}’;
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", yearOfPublication=" + yearOfPublication +
+                '}';
     }
+
     public String getTitle() {
         return title;
     }
@@ -32,15 +34,3 @@ public class Book {
         return yearOfPublication;
     }
 }
-5:32
-        package com.sda.she_likes_java.homework.exercise_17;
-        import java.time.Year;
-        import java.util.Random;
-
-
-
-
-
-
-
-
