@@ -1,5 +1,7 @@
 package com.sda.she_likes_java.homework.exercise_17;
+
 import java.time.Year;
+
 public class Book {
     private static int numberOfCreatedBooks;
     private final String title;
@@ -11,6 +13,7 @@ public class Book {
         this.yearOfPublication = yearOfPublication;
         numberOfCreatedBooks++;
     }
+
     public static int getNumberOfCreatedBooks() {
         return numberOfCreatedBooks;
     }
@@ -27,9 +30,11 @@ public class Book {
     public String getTitle() {
         return title;
     }
+
     public String getAuthor() {
         return author;
     }
+
     public Year getYearOfPublication() {
         return yearOfPublication;
     }
