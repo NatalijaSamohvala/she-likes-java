@@ -5,4 +5,5 @@ public class Parrot extends Bird implements Flyable {
     public void fly() {
         System.out.println("Parrot can fly");
     }
+
 }
