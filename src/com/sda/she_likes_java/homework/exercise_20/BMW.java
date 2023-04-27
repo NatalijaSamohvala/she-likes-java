@@ -1,6 +1,6 @@
 package com.sda.she_likes_java.homework.exercise_20;
 
-public class BWM extends Car {
+public class BMW extends Car {
 
     @Override
     public void drive() {

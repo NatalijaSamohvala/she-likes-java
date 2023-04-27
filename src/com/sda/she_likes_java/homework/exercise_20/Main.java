@@ -8,9 +8,9 @@ public class Main {
         CarUtils.safeCast(new Toyota());
         CarUtils.safeCast(new Ferrari());
         CarUtils.safeCast(new Car());
-        BWM bwm = new BWM();
-        bwm.speedUp();
-        Car bmw = new BWM();
+        BMW BMW = new BMW();
+        BMW.speedUp();
+        Car bmw = new BMW();
         CarUtils.safeCast(bmw);
     }
 }
