@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.excercise_15;
+package com.sda.she_likes_java.homework.exercise_15;
 
 import com.sda.she_likes_java.classes.Person;
 import com.sda.she_likes_java.homework.Address;
